@@ -39,7 +39,7 @@ core:
 graphicals:
 	$(MAKE) $(NCURSE_DIR)
 	$(MAKE) $(SFML_DIR)
-	# $(MAKE) $(SDL_DIR)
+	$(MAKE) $(SDL_DIR)
 
 games:
 	$(MAKE) $(SNAKE_DIR)
